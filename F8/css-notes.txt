@@ -37,11 +37,23 @@
     ::before
     ::after
     ::first-letter
-    ::first-linea
+    ::first-line
     ::selection
 - Padding - Đệm
 - Border - Viền
-    - Mặc định border kiểu solid có đồ dày 2px
+    - Mặc định border kiểu solid có đồ dày 2px.
+- Margin - Khoảng cách lề
+- box-sizing
+- background-image
+- CSS position
+    - relative - tương đối: lấy vị trí ban đầu của chính mình làm mốc tọa độ,
+     không phụ thuộc vào thành phần khác
+    - absolute - tuyệt đối: phụ thuộc vào thẻ cha gần nhất có thuộc tính position
+    - fixed:
+    - sticky:
+
+
+
 * Trong trình duyệt có một số thuộc tính CSS mặc định, trong đó có thuộc tính margin.
 Cụ thể thẻ body mặc định có margin 8px, thẻ h1-h6, p cũng vậy.
 Để khắc phục dùng Reset CSS bằng cách:
