@@ -51,8 +51,17 @@
     - absolute - tuyệt đối: phụ thuộc vào thẻ cha gần nhất có thuộc tính position
     - fixed:
     - sticky:
+- Căn giữa
+    - text-align: có tính chất thừa kế
+    - line-height: có tính chất kế thừa
+    
+    - dùng display: flex
+        align-items
+        justify-content
 
-
+    - dùng position
+        thẻ cha dùng relative
+        thẻ con dùng absolute + top, left.. + transform: translateY(-x%)
 
 * Trong trình duyệt có một số thuộc tính CSS mặc định, trong đó có thuộc tính margin.
 Cụ thể thẻ body mặc định có margin 8px, thẻ h1-h6, p cũng vậy.
