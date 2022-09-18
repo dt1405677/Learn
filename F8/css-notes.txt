@@ -70,5 +70,7 @@ Cụ thể thẻ body mặc định có margin 8px, thẻ h1-h6, p cũng vậy.
         margin:0;
         padding:0;
     }
-
+- CSS display
+    Với display inline sẽ không điều chỉnh kích thước của weight và height.
+    Với display block sẽ có thể điều chỉnh kích thước của weight và height.
 =====   Dev tools   =====
