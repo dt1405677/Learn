@@ -19,34 +19,55 @@ html {
     background-color: #000;
 }
 
-#nav {
-
+#nav .subnav {
+    display: none;
+    list-style: none;
 }
 
 #nav li {
+    position: relative;
+}
+
+#nav > li {
+    /* inline-block giữ lại block là để có thể chỉnh lại kích thước */
     display: inline-block;
 }
 
-#nav li a {
+/* css cho các element con trực tiếp */
+#nav > li > a {
     color: #fff;
-    text-decoration: none;
     text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* css cho các element con, cháu */
+#nav li a {
+    text-decoration: none;  
     line-height: 46px;
     padding: 0 24px;
-    display: inline-block;
+    /* display: inline sẽ không điều chỉnh được kích thước */
+    display: block;
 }
 
-#nav li:hover a {
+#nav > li:hover > a,
+#nav .subnav li:hover a {
     color: #000;
     background-color: #ccc;
 }
 
 #nav .subnav {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    background-color: #fff;
+}
+
+#nav .subnav a {
+    color: #000;
 }
 
 #slider {
-
+    min-height: 500px;
+    background-color: rgb(38, 37, 37);
 }
 
 #content {
